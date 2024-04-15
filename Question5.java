@@ -9,8 +9,7 @@ public class Question5 {
         
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();
         
-        // Prompt user for integers and populate frequency map
-        System.out.println("Enter the integers:");
+
         for (int i = 0; i < count; i++) {
             int num = in.nextInt();
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);

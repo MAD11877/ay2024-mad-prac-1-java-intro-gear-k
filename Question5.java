@@ -5,8 +5,6 @@ public class Question5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
-        // Prompt user for the number of integers they will enter
-        System.out.print("Enter the number of integers you will enter: ");
         int count = in.nextInt();
         
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();
@@ -29,7 +27,7 @@ public class Question5 {
         }
         
         // Print out the mode
-        System.out.println("The mode is: " + mode);
+        System.out.println(mode);
         
         // Close the scanner
         in.close();

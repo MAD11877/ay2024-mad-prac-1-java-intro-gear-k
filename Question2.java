@@ -4,12 +4,10 @@ public class Question2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        // Prompt user for height
-        System.out.print("Enter your height in meters: ");
+
         double height = in.nextDouble();
 
-        // Prompt user for weight
-        System.out.print("Enter your weight in kilograms: ");
+
         double weight = in.nextDouble();
 
         // Calculate BMI

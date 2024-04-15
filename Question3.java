@@ -11,8 +11,8 @@ public class Question3 {
         // Multiply the integer by itself
         int squared = number * number;
 
-        // Print out the result
-        System.out.println("The square of " + number + " is " + squared);
+        // Print out just the result
+        System.out.println(squared);
 
         // Close the scanner
         in.close();

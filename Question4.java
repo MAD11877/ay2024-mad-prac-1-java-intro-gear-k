@@ -4,8 +4,6 @@ public class Question4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        // Prompt user for the base of the triangle
-        System.out.print("Enter the base length of the triangle: ");
         int base = in.nextInt();
 
         // Outer loop for each level of the triangle

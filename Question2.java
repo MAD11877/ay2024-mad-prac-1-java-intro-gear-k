@@ -14,7 +14,7 @@ public class Question2 {
         double bmi = weight / (height * height);
 
         // Print out BMI
-        System.out.printf(bmi);
+        System.out.println(bmi);
 
         // Close the scanner
         in.close();
